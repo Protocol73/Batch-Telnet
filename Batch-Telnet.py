@@ -3,23 +3,21 @@
 #Written by Protocol73
 ''' 
 THE TO DO LIST:
-	Clean up imports
-	Setup config files?
-		Already using excel sheet
-
-	setup if __main__ ?
+	Prompt on login fail
+		count them too?
+	Setup config files
+		Already using excel sheet?
 '''
 #END THE TO DO LIST
 #=========================================================================
 Notice = "-=-=- THIS IS BETA -=-=- \nThis is a tested version but NOT Recommended everyday use.\n"
 ExcelNotice = "Do NOT have the Excel Sheet this Script will be using open while running this!\n"
 FinalNotice = "\nYou should only be using this if you understand the risks of this & telnet.\n === YOU HAVE BEEN WARNED === \n"
-P73c_Ver = 0.3 #for checking core imports -NYI-
 StartupDelay = 5 #move to config?
 #=========================================================================
 import sys #for using args
 import time #for time.sleep()
-import os.path #for checking files/dir 
+import os.path #for running 
 from datetime import date #inthename
 from getpass import getpass #InTheName
 import telnetlib #https://docs.python.org/3/library/telnetlib.html
